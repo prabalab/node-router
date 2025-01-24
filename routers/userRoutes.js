@@ -10,7 +10,7 @@ router.get('/profile', (req, res) => {
   res.send('User Profile Page');
 });
 
-router.post('/login', (req, res) => {
+router.get('/login', (req, res) => {
   res.send('User Login Endpoint');
 });
 
